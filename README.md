@@ -1,6 +1,6 @@
 # MapReduce in Go
 
-This project is a demonstration of a simple MapReduce framework implemented in Go, using best practices, concurrency with goroutines and channels, and a word count example.
+This project is a demonstration of a simple MapReduce framework implemented in Go with a sample text file for educational purposes.
 
 ## Project Structure
 
@@ -18,5 +18,5 @@ This project is a demonstration of a simple MapReduce framework implemented in G
 ```bash
 go mod tidy
 go test ./core
-go run main.go <path_to_input_file>
+go run main.go sample.txt
 ```
